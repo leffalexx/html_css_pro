@@ -10,6 +10,11 @@ a {
     font-style: normal;
 }
 
+body,
+html {
+    overflow-x: hidden
+}
+
 
 @-webkit-keyframes scale-in-ver-center {
     0% {
@@ -124,10 +129,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.top {
-    position: relative;
-    overflow: hidden;
-}
 
 .center {
     padding-left: calc(50% - 570px);
@@ -518,7 +519,7 @@ body {
 }
 
 .bottom__container {
-    background: url('img/background.png');
+    background: url('../img/background.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
