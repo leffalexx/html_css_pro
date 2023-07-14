@@ -1,6 +1,8 @@
 @import 'vars';
 @import 'shop';
 @import 'product';
+@import 'cart';
+@import 'registration';
 
 * {
     padding: 0;
@@ -148,6 +150,7 @@ body {
     &__left {
         display: flex;
         gap: 41px;
+        align-items: flex-end;
     }
 
     &__right {
@@ -584,8 +587,8 @@ body {
 }
 
 .subscribe__button {
-    background: #F4F4F4B2;
-    color: $accentColor;
+    background: $accentColor;
+    color: #FFFFFF;
     padding: 24px 24px 24px 24px;
     font-size: 14px;
     line-height: 17px;
@@ -595,8 +598,8 @@ body {
 }
 
 .subscribe__button:hover {
-    background: $accentColor;
-    color: #fff;
+    background: #f4f4f4;
+    color: $accentColor;
 }
 
 
