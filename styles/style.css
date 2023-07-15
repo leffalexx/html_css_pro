@@ -457,7 +457,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 128px;
 }
 .shop__cards {
