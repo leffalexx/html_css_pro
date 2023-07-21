@@ -238,3 +238,42 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .shop {
+        flex-direction: column;
+        align-content: center;
+        gap: 64px;
+
+        &__cards {
+            width: 734px;
+        }
+
+        &__buttons {
+            width: 734 px;
+            justify-content: space-around;
+        }
+
+        .buymenu {
+            width: 734px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+
+            &__shipping {
+                width: 360px;
+                margin-bottom: 0;
+            }
+
+            &__checkout {
+                margin-top: 39px;
+            }
+        }
+    }
+
+
+
+}

@@ -650,6 +650,14 @@ body {
 
 
 @media(max-width:1024px) {
+
+    .center {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+    }
+
+
+
     .header__left {
         padding-left: 32px;
     }
@@ -704,6 +712,10 @@ body {
         padding-right: 16px;
     }
 
+    .items {
+        gap: 16px;
+    }
+
     .info {
         align-content: flex-start;
         flex-wrap: wrap;
@@ -721,12 +733,14 @@ body {
         padding-left: calc(50% - 180px);
         padding-right: calc(50% - 180px);
         align-content: center;
+        gap: 48px;
+        padding-top: 64px;
+        padding-bottom: 140px;
     }
 
     .under__bottom__item {
         max-width: 360px;
-        margin-bottom: 48px;
-        margin-top: 64px;
+
     }
 
     .footer__left {
